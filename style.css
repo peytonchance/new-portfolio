@@ -1,0 +1,259 @@
+
+/* ------ Global Styles -------- */
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+/* ------- Logo and intro ------- */
+
+
+.top-portion svg{
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.info-wrapper .item img{
+  height: 25vw;
+}
+
+.info-wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-top: 3%;
+  margin-left: 13.5%;
+  margin-right: 13.5%;
+  max-height: 25vw;
+}
+
+.info-wrapper h2{
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+.info-wrapper p{
+  margin-top: 10px;
+}
+
+.blurb{
+  margin-left: 3%;
+  margin-top: -1%;
+}
+/* ----------- Navigation ---------- */
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+font-size:.95em;
+letter-spacing: .03em;
+padding-bottom:5px;
+margin-top: 1%;
+font-family: 'Montserrat', sans-serif;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 50%;
+  padding: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+
+
+}
+
+nav ul a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav ul a:visited{
+  color: black;
+}
+
+nav ul li{
+  margin-left: 6%;
+}
+
+#first-nav{
+  margin-left: 0%;
+}
+
+
+/* ----------- Portfolio ----------- */
+.subhead{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+.mix-control{
+text-align: center;
+margin-top: 3%;
+margin-bottom: 5%;
+}
+
+.mix-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+  max-height: 35vw;
+  margin-bottom: 20%;
+}
+
+#last{
+  align-self: flex-start;
+}
+.mix-container img{
+  height: 15vw;
+  margin-bottom: 7%;
+}
+
+.mixitup-control-active{
+  background: black;
+  color: white;
+  outline: none;
+}
+
+
+
+
+/* ------------ Resume -------------- */
+
+button{
+  background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+}
+
+.resume-button {
+  text-align: center;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.resume-wrapper h1{
+  text-align: center;
+}
+
+.resume-wrapper{
+  margin-left: 25%;
+}
+
+/* ------------ About ------------- */
+
+.social-media i{
+  font-size: 3em;
+  margin-left: 12%;
+}
+
+.social-media a{
+color: black;
+}
+
+.social-media a:visited{
+  color: black;
+}
+
+.social-media{
+  width: 24%;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+.contact-wrapper{
+  margin-left: 25%;
+  width: 50%;
+}
+
+
+/* ------------ Footer ------------- */
+
+footer{
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer img{
+  height: 10vw;
+  margin-left: 5%;
+}
+
+footer a{
+  align-self: center;
+  color: black;
+}
+
+footer a:visited{
+  color: black;
+}
+
+
+/*
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDDMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDNMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMMMMDDMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMM777$MMMMMMMMMMMMDDMMMMMMMDMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMI?=++?7MMMMMMMMMMMMDNMMMMMMDMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMZ?+~~~=+IZMMMMMMMMMMMDNMMMMMMDMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMM7???I7MMMMMI+=~~~~=+7MMMMMMMMMMMNDMMMMMMDMMMMMMMMMM777ZMMMMMMMM
+MMMMMMMMMMMMMMMM7?=~~=+?7MMMMI+=~~~~~+IZMMMMMMMMMMMDMMMMMNDMMMMMMM7?+=+?7MMMMMMM
+MMMMMMMMMMMMMMMM7?=~~~~=+I7MMM7+==~~~~=?$MMMMMMMMMMMDMMMMMNMMMMMM7?=~~~=?$MMMMMM
+MMMMMMMMMMMMMMMMDI+=~~~~~=+INMM7?==~~~~~+INMMMMMMMMMMDMMMMMMMMMMM?=~~~~~+7MMMMMM
+MMMMMMMMMMMMMMMMMMI+==~~~~~=?7MMOI+=~~~~~=?7MMMMMMMMMDMMMMMMMMMM7+~~~~~~=IMMMMMM
+MMMMMMMMMMMMMMMMMMM7?==~~~~~=+INMMI+=~~~~~=+IMMMMMMMMMMMMMMMMMMMI=~~~~~~=IMMMMMM
+MMMMMMMMMMMMMMMMMMMMDI+=~~~~~~=?7MM7?=~~~~~~=?$MMMMMMMMMMMMMMMMMI=~~~~~~+7MMMMMM
+MMMMMMMMMMMMM7???IZMMM7?==~~~~~~+?DMZ?==~~~~~=+7MMMMMMMMMMMMMMMM?=~~~~~=?$MMMMMM
+MMMMMMMMMMMM7?====?7MMM$?==~~~~~~=?7MMI+=~~~~~~=INMMMMMMMMMMMMMM?=~~~~~=IMMMMMMM
+MMMMMMMMMMMMI+=~~~~=?7MMMI+=~~~~~~~+IMM7?=~~~~~~=?7MMMMMMMMMMMMMI=~~~~~=IMMMMMMM
+MMMMMMMMMMMM7?==~~~~=+IMMM7?=~~~~~~~=?7MNI+~~~~~~~+IMMMMMMMMMMMM7+~~~~~=IMMMMMMM
+MMMMMMMMMMMMM7?==~~~~~=?7MMMI+=~~~~~~~+IMM7?=~~~~~~=?$MMMMMMMMMMD+=~~~~=IMMMMMMM
+MMMMMMMMMMMMMMZ?+==~~~~~+IMMMI+=~~~~~~~=?7MZ?=~~~~~~=+IMMMMMMMMMM?=~~~~=?MMMMMMM
+MMMMMMMMMMMMMMMM7+=~~~~~~=+7MM7?=~~~~~~~~+IMM7+~~~~~~~=?7MMMMMMMM?=~~~~~+7MMMMMM
+MMMMMMMMMMMMMMMMM7?==~~~~~~+IZMM7+=~~~~~~~=?$MI=~~~~~~~~=?7MMMMMZ+~~~~~~+IMMMMMM
+MMMMMMMMMMMMMMMMMMMI+=~~~~~~=+7MM$?=~~~~~~~~=+=~~~~~~~~~~~+I7MMMI=~~~~~~=IMMMMMM
+MMMMMMMMMMMM7I?I7MMM$?=~~~~~~~=?7MMI+=~~~~~~~~~~~~~~~~~~~~~~=+++=~~~~~~~=?MMMMMM
+MMMMMMMMMMMMI+===?7MMNI+~~~~~~~~+IMM$?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?8MMMMM
+MMMMMMMMMMMM7+=~~=+I8MM7+=~~~~~~~=?7MMI+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?$MMMMM
+MMMMMMMMMMMMMI+=~~~=+7MM$?=~~~~~~~=+IMM?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+7MMMMM
+MMMMMMMMMMMMMM7?=~~~~+?$MMI+=~~~~~~~=++=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+7MMMMM
+MMMMMMMMMMMMMMMMI+~~~~=+7MM7?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?$MMMM
+MMMMMMNDMMMMMMMMM7?=~~~~=?DMMI+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=IMMMM
+MMMMMMMDDMMMMMMMMMO?=~~~~=+7MM7+=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?$MMM
+MDNMMMMMNNMMMMMMMMMMI+=~~~~+IMM$?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=+IMMM
+MMNDMMMMMMDNMMMMMMMMM7?=~~~~=?7MM?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~====?$MM
+MMMDDMMMMMMNNMMMMMMMMMMI+=~~~~=?$O=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=====+7MM
+MMMMNDMMMMMMMDDMMMMMMMMM7+=~~~~~==~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=======?7MM
+MMMMMMDNMMMMMMMDNMMMMMMMMZ?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=======?$MM
+MMMMMMMNNMMMMMMMMNDMMMMMMMMI+=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~======+IMMM
+MMMMMMMMMDDMMMMMMMMMMMMMMMMM7?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~~~~~=======+7MMM
+MMMMMMMMMMMNDMMMMMMMMMMMMMMMM7?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~======+I$MMM
+MMMMMMMMMMMMMNDNMMMMMMMMMMMMMMOI=~~~~~~~~~~~~~~~~~~~~~~~~~~~===~~~~======+?7MMMM
+MMMMMMMMMMMMMMMMDNMMMMMMMMMMMMMMI+~~~~~~~~~~~~~~~~~~~~~~===============+++I$MMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMI+=~~~~~~~~~~~~~~~~~~~~~==========++++++I$MMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMZ?=~~~~~~~~~~~~~~~~~~~~=======++++++++?7MMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7+=~~~~~~~~~~~~~~~~~~====+++++++++??7MMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$I+~~~~~~~~~~~~~~=====++++++++++?I7MMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7?+===============++++++++++??7$MMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7?+=========++++++++++++??I$MMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7?++==++++++++++++++??I$MMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$I??++++++++++???I7$MMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$77I?????III7$MMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO$$$MMMMMMMMMMMMMMMMMMMMMMM
+                                            */
