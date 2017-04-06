@@ -69,6 +69,7 @@ nav ul{
 
 nav ul a{
   text-decoration: none;
+  color: black;
   cursor: pointer;
 }
 
@@ -204,56 +205,108 @@ footer a:visited{
   color: black;
 }
 
+/* --------------- Media Queries ------------ */
 
-/*
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDDMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMDNMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMMMMDDMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMM777$MMMMMMMMMMMMDDMMMMMMMDMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMI?=++?7MMMMMMMMMMMMDNMMMMMMDMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMZ?+~~~=+IZMMMMMMMMMMMDNMMMMMMDMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMM7???I7MMMMMI+=~~~~=+7MMMMMMMMMMMNDMMMMMMDMMMMMMMMMM777ZMMMMMMMM
-MMMMMMMMMMMMMMMM7?=~~=+?7MMMMI+=~~~~~+IZMMMMMMMMMMMDMMMMMNDMMMMMMM7?+=+?7MMMMMMM
-MMMMMMMMMMMMMMMM7?=~~~~=+I7MMM7+==~~~~=?$MMMMMMMMMMMDMMMMMNMMMMMM7?=~~~=?$MMMMMM
-MMMMMMMMMMMMMMMMDI+=~~~~~=+INMM7?==~~~~~+INMMMMMMMMMMDMMMMMMMMMMM?=~~~~~+7MMMMMM
-MMMMMMMMMMMMMMMMMMI+==~~~~~=?7MMOI+=~~~~~=?7MMMMMMMMMDMMMMMMMMMM7+~~~~~~=IMMMMMM
-MMMMMMMMMMMMMMMMMMM7?==~~~~~=+INMMI+=~~~~~=+IMMMMMMMMMMMMMMMMMMMI=~~~~~~=IMMMMMM
-MMMMMMMMMMMMMMMMMMMMDI+=~~~~~~=?7MM7?=~~~~~~=?$MMMMMMMMMMMMMMMMMI=~~~~~~+7MMMMMM
-MMMMMMMMMMMMM7???IZMMM7?==~~~~~~+?DMZ?==~~~~~=+7MMMMMMMMMMMMMMMM?=~~~~~=?$MMMMMM
-MMMMMMMMMMMM7?====?7MMM$?==~~~~~~=?7MMI+=~~~~~~=INMMMMMMMMMMMMMM?=~~~~~=IMMMMMMM
-MMMMMMMMMMMMI+=~~~~=?7MMMI+=~~~~~~~+IMM7?=~~~~~~=?7MMMMMMMMMMMMMI=~~~~~=IMMMMMMM
-MMMMMMMMMMMM7?==~~~~=+IMMM7?=~~~~~~~=?7MNI+~~~~~~~+IMMMMMMMMMMMM7+~~~~~=IMMMMMMM
-MMMMMMMMMMMMM7?==~~~~~=?7MMMI+=~~~~~~~+IMM7?=~~~~~~=?$MMMMMMMMMMD+=~~~~=IMMMMMMM
-MMMMMMMMMMMMMMZ?+==~~~~~+IMMMI+=~~~~~~~=?7MZ?=~~~~~~=+IMMMMMMMMMM?=~~~~=?MMMMMMM
-MMMMMMMMMMMMMMMM7+=~~~~~~=+7MM7?=~~~~~~~~+IMM7+~~~~~~~=?7MMMMMMMM?=~~~~~+7MMMMMM
-MMMMMMMMMMMMMMMMM7?==~~~~~~+IZMM7+=~~~~~~~=?$MI=~~~~~~~~=?7MMMMMZ+~~~~~~+IMMMMMM
-MMMMMMMMMMMMMMMMMMMI+=~~~~~~=+7MM$?=~~~~~~~~=+=~~~~~~~~~~~+I7MMMI=~~~~~~=IMMMMMM
-MMMMMMMMMMMM7I?I7MMM$?=~~~~~~~=?7MMI+=~~~~~~~~~~~~~~~~~~~~~~=+++=~~~~~~~=?MMMMMM
-MMMMMMMMMMMMI+===?7MMNI+~~~~~~~~+IMM$?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?8MMMMM
-MMMMMMMMMMMM7+=~~=+I8MM7+=~~~~~~~=?7MMI+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?$MMMMM
-MMMMMMMMMMMMMI+=~~~=+7MM$?=~~~~~~~=+IMM?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+7MMMMM
-MMMMMMMMMMMMMM7?=~~~~+?$MMI+=~~~~~~~=++=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+7MMMMM
-MMMMMMMMMMMMMMMMI+~~~~=+7MM7?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?$MMMM
-MMMMMMNDMMMMMMMMM7?=~~~~=?DMMI+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=IMMMM
-MMMMMMMDDMMMMMMMMMO?=~~~~=+7MM7+=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=?$MMM
-MDNMMMMMNNMMMMMMMMMMI+=~~~~+IMM$?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=+IMMM
-MMNDMMMMMMDNMMMMMMMMM7?=~~~~=?7MM?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~====?$MM
-MMMDDMMMMMMNNMMMMMMMMMMI+=~~~~=?$O=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=====+7MM
-MMMMNDMMMMMMMDDMMMMMMMMM7+=~~~~~==~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=======?7MM
-MMMMMMDNMMMMMMMDNMMMMMMMMZ?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=======?$MM
-MMMMMMMNNMMMMMMMMNDMMMMMMMMI+=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~======+IMMM
-MMMMMMMMMDDMMMMMMMMMMMMMMMMM7?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~~~~~=======+7MMM
-MMMMMMMMMMMNDMMMMMMMMMMMMMMMM7?=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~======+I$MMM
-MMMMMMMMMMMMMNDNMMMMMMMMMMMMMMOI=~~~~~~~~~~~~~~~~~~~~~~~~~~~===~~~~======+?7MMMM
-MMMMMMMMMMMMMMMMDNMMMMMMMMMMMMMMI+~~~~~~~~~~~~~~~~~~~~~~===============+++I$MMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMI+=~~~~~~~~~~~~~~~~~~~~~==========++++++I$MMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMZ?=~~~~~~~~~~~~~~~~~~~~=======++++++++?7MMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7+=~~~~~~~~~~~~~~~~~~====+++++++++??7MMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$I+~~~~~~~~~~~~~~=====++++++++++?I7MMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7?+===============++++++++++??7$MMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7?+=========++++++++++++??I$MMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM7?++==++++++++++++++??I$MMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$I??++++++++++???I7$MMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$77I?????III7$MMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO$$$MMMMMMMMMMMMMMMMMMMMMMM
-                                            */
+@media screen and (max-width: 720px) {
+  .top-portion svg{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .info-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 100vh;
+  }
+  .info-wrapper .item img{
+    width: 100%;
+    height: auto;
+  }
+
+  .info-wrapper h2{
+    margin-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
+  }
+
+  .info-wrapper p{
+    margin-top: 10px;
+  }
+
+  .blurb{
+    margin-left: 3%;
+    margin-top: -1%;
+  }
+
+  .mix-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+    max-height: none;
+    margin-bottom: 20%;
+  }
+
+  #last{
+    align-self: auto;
+  }
+
+  .mix-container img{
+    width: 70vw;
+    height: auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  .resume-button {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+  }
+
+  .resume-wrapper h1{
+    text-align: center;
+  }
+
+  .resume-wrapper{
+    margin-left: 10%;
+    margin-bottom: 15%;
+  }
+
+  .social-media i{
+    font-size: 3em;
+    margin-left: 10%;
+  }
+
+  .social-media a{
+  color: black;
+  }
+
+  .social-media a:visited{
+    color: black;
+  }
+
+  .social-media{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+  }
+
+  .contact-wrapper{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+  }
+}
