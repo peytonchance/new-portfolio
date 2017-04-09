@@ -87,6 +87,38 @@ nav ul li{
 
 
 /* ----------- Portfolio ----------- */
+.portfolio-info{
+      position: absolute;
+      line-height: 1.5em;
+      vertical-align: middle;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.75);
+      color: black;
+      visibility: hidden;
+      opacity: 0;
+      font-size: .85em;
+      text-align: left;
+      padding-top: 10%;
+      padding-left: 10%;
+      margin-top: 0px;
+}
+
+.mix:hover .portfolio-info {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1000;
+}
+
+.mix {
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 1.3em;
+}
+
+
+
 .subhead{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -123,6 +155,10 @@ margin-bottom: 5%;
   background: black;
   color: white;
   outline: none;
+}
+
+.skills{
+  font-weight: 400;
 }
 
 

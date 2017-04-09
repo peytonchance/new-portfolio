@@ -49,10 +49,14 @@
         <button type="button" data-filter=".category-a">Web</button>
         <button type="button" data-filter=".category-b">Design</button>
         <button type="button" data-filter=".category-c">Writing</button>
+
+
   </div>
 
         <div class="mix-container">
-          <div class="mix category-a" data-order="1"><img src="assets/cuba_portfolio.png"></div>
+          <div class="mix category-a" data-order="1">
+            <div class="portfolio-info"><p>A multimedia website to display student work on a project in Havana, Cuba.</p><p class="skills">HTML, CSS, Sass, JavaScript/jQuery.</p></div>
+            <img src="assets/cuba_portfolio.png"></div>
           <div class="mix category-a" data-order="2"><img src="assets/savvy_portfolio.png"></div>
           <div class="mix category-a" data-order="3"><img src="assets/power_portfolio.png"></div>
           <div class="mix category-b" data-order="4"><img src="assets/pupusa_portfolio.png"></div>
@@ -66,7 +70,7 @@
   <!-- Skills and Experience -->
   <h2 class="subhead" id="res">Skills</h2>
   <div class="resume-button">
-  <a href="PC_Resume.pdf"><button>View Resume</button></a>
+  <a href="PC_Resume.pdf" target="_blank"><button>View Resume</button></a>
 </div>
   <div class="resume-wrapper">
     <h3>Front-End Development</h3>
@@ -109,7 +113,7 @@
   </div>
 
   <footer>
-    <img src="assets/Signature.png">
+    <a href="#"><img src="assets/Signature.png"></a>
     <a href="#" style="text-decoration: none;">Back to Top</a>
   </footer>
 
@@ -119,5 +123,6 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="mixitup.min.js"></script>
   <script>var mixer = mixitup('.mix-container');</script>
+  <!-- <script src="index.js"></script> -->
 </body>
 </html>
